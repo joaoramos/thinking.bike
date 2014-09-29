@@ -5,8 +5,8 @@
 //-------------------------------------
 
 @include keyframes(spin-wheel) {
-  0% { @include transform(rotate(0deg)); }
-  100% { @include transform(rotate(-360deg)); }
+  0% { @include transform(rotate3d(0,0,1,0deg)); }
+  100% { @include transform(rotate3d(0,0,1,-360deg)); }
 }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
@@ -129,8 +129,6 @@ body {
   
   #back, #front {
     fill: white;
-    @include transition;
-//    @include transform(translate3d(0,0,0));
     @include transform-origin(center center);
     @include animation(spin-wheel 4s linear infinite);
   }
