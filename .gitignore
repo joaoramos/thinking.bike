@@ -37,3 +37,7 @@ ehthumbs.db
 Thumbs.db
 ngrok
 css/.sass-cache/*
+
+# Dev. SASS #
+#############
+css/bourbon/*
