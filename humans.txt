@@ -1,15 +1,10 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* ME */
+Designer and developer: João Ramos
+Joao.pt: hello (at) joao (dot) pt
+Twitter: joaotiago
+Location: Berlin, Germany
 
-# TEAM
-
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+/* SITE */
+Last update: March, 2015
+Standards: HTML5, CSS3, SVG
+Components: Normalizr, SASS, Bourbon
